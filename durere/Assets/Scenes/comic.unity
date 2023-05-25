@@ -894,6 +894,7 @@ MonoBehaviour:
   - {fileID: 1500695035}
   - {fileID: 2109731436}
   fundal: {fileID: 1140360569}
+  nrnr: 1
 --- !u!4 &1142187677
 Transform:
   m_ObjectHideFlags: 0
@@ -1065,8 +1066,6 @@ GameObject:
   - component: {fileID: 2020380532}
   - component: {fileID: 2020380531}
   - component: {fileID: 2020380530}
-  - component: {fileID: 2020380534}
-  - component: {fileID: 2020380535}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1164,39 +1163,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &2020380534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020380529}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f16998e9baacd2841b8e8953bdad5dcf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2020380535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020380529}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf7763e1a7834d94b9197ab737f1560c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pages:
-  - {fileID: 765782241}
-  - {fileID: 2139866314}
-  - {fileID: 821689905}
-  - {fileID: 974189159}
-  - {fileID: 952001461}
-  - {fileID: 1500695035}
-  - {fileID: 2109731436}
-  fundal: {fileID: 0}
 --- !u!1 &2109731435
 GameObject:
   m_ObjectHideFlags: 0

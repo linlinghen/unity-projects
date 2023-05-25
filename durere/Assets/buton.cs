@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 public class buton : MonoBehaviour
 {
     public Image[] pages; 
-    private int i = 0; 
+    private int i=0;
     public Image fundal;
+    public int nrnr;
     void Start()
     {
         
@@ -24,7 +25,7 @@ public class buton : MonoBehaviour
         else
         {
             
-            SceneManager.LoadScene("menu");
+            SceneManager.LoadScene(nrnr);
         }
     }
 

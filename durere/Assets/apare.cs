@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class apare : MonoBehaviour
 {
-    public GameObject imageObject;
+    public GameObject canvas;
 
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
-        if (!imageObject.activeSelf)
+        if (!canvas.activeSelf)
         {
-            imageObject.SetActive(true);
+            canvas.SetActive(true);
         }
+        else canvas.SetActive(false);
     }
 }
